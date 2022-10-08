@@ -24,9 +24,6 @@
     
     Download multiple video:
     youtube-dl -a url.txt
-    
-    ## this is just awesome.
-    #-----------------------------
 
     Download the audio from a video and convert it to an MP3: 
     youtube-dl -xi --audio-format mp3 'url'
@@ -40,3 +37,4 @@
     Download a particular language's subtitles along with the video: 
     youtube-dl --sub-lang en --write-sub 'https://www.youtube.com/watch?v=Mwa0_nE9H7A'
     
+    #unfortunately youtube-dl is being provided limited speed for downloading, it's better to use pytube.
